@@ -21,8 +21,8 @@ def employee_payload():
      return {
         "username": f"user-{uuid.uuid4().hex[:8]}",
         "id": str(uuid.uuid4()),
-        "firstName": "Alice",
-        "lastName": "Harper",
+        "firstName": "Peter",
+        "lastName": "Parker",
         "dependants": 2,
         "salary": 52000.0
     }
