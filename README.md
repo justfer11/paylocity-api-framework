@@ -26,13 +26,13 @@ paylocity-api-framework/
 │   │   ├── assertions.py        # Custom assertion helpers
 │   │   ├── schema_validators.py # JSON schema validation utilities
 │   │   └── conftest.py          # Pytest configuration & shared fixtures
-│   ├── README.md                # Documentation for the framework
 │   └── requirements.txt         # Python dependencies
 ├── .env                         # Environment variables (local config)
 ├── .gitignore                   # Git ignore rules
 ├── venv/                        # Virtual environment (local, not tracked)
 ├── __pycache__/                 # Python cache files (ignored)
 └── .pytest_cache/               # Pytest cache (ignored)
+├── README.md                # Documentation for the framework
 
 
 
