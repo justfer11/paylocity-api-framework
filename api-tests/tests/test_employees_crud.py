@@ -26,7 +26,7 @@ def test_update_employee(api_base_url, auth_header, session, employee_payload):
 
     # Update fields (dependants, salary, names)
     updated = dict(employee_payload)
-    updated["firstName"] = "Alicia"
+    updated["firstName"] = "Peter"
     updated["dependants"] = 3
     updated["salary"] = 78000.0
 
